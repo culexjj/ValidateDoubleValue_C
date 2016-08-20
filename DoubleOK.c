@@ -4,6 +4,9 @@
 
 /* Function DoubleOK. Arguments; string to Check. Function return 1(True) provided that format is right, 0(false) otherwise */
 
+#include <string.h>
+#include <ctype.h>
+
 int doubleOK(char myString[])
 {
     int stringSize = strlen(myString); //string size
