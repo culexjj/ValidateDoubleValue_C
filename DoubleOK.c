@@ -1,5 +1,5 @@
 /************************** doubleOK.c **************************************************
-        Source File number 3. Function check if number has a proper format
+        Source File. Function check if number has a proper format
 ****************************************************************************************/
 
 /* Function DoubleOK. Arguments; string to Check. Function return 1(True) provided that format is right, 0(false) otherwise */
@@ -7,7 +7,7 @@
 int doubleOK(char myString[])
 {
     int stringSize = strlen(myString); //string size
-    int i, counter; //loop counter and decimal point counter
+    int i, counter; //loop counter, decimal point counter
 
     counter = 0;
 
